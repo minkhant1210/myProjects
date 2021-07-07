@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         *{
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+
+         body{
+             background-color: cadetblue;
+         }
+
+         h1{
+             background-color: grey;
+            color: brown;
+            padding: 100px;
+            text-align: center;
+            border-radius: 7px;
+            
+            
+         }
+
+         a{
+             display: block;
+             /* margin-top: 20px; */
+             float: right;
+             background-color:cadetblue;
+             width: 50%;
+             text-align: center;
+             padding: 20px;
+             /* height: 100vh; */
+             border-radius: 5px;
+             text-decoration: none;
+             font-size: 30px;
+         }
+         
+         .weight-converter{
+             background-color: darkcyan;
+             color: rgb(196, 182, 182);
+         }
+         .item-lister{
+             background-color: darksalmon;
+             color: rgb(219, 198, 198);
+         }
+         .weight-converter:hover{
+             background-color: transparent;
+             color: rgb(197, 19, 117);
+             max-width: 50%;
+         }
+         .item-lister:hover{
+             background-color: transparent;
+             color:rgb(197, 19, 117) ;
+         }
+         h2{
+             margin: 300px auto;
+             text-align: center;
+         }
+
+         @media screen and (max-width: 600px){
+             #project{
+                 width: 100%;
+             }
+         }
+
+    </style>
+ </head>
+ <body>
+     
+    <h1>My projects</h1>
+
+    <div class="project-links">
+        <a href="weight_converter/index.html" id="project" class="weight-converter">Weight Converter</a>
+        <a href="item_lister/index1.html" id="project" class="item-lister">Item Lister</a>
+    </div>
+
+    <div class="more">
+        <h2>Other projects are comming soon...</h2>
+    </div>
+
+ </body>
+ </html>
