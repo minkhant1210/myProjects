@@ -1,87 +1,97 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <style>
-         *{
-             margin: 0;
-             padding: 0;
-             box-sizing: border-box;
-         }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-         body{
-             background-color: cadetblue;
-         }
+    <!-- Primary Meta Tags -->
+    <title>Mkz's Projects</title>
+    <meta name="title" content="Mkz's Projects">
+    <meta name="description" content="Plz check my projects guys. The last project, facebook clone layout is not responsive  ::3.">
 
-         h1{
-             background-color: grey;
-            color: brown;
-            padding: 100px;
-            text-align: center;
-            border-radius: 7px;
-            
-            
-         }
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mms-it.com/">
+    <meta property="og:title" content="Mkz's Projects">
+    <meta property="og:description" content="Plz check my projects guys. The last project, facebook clone layout is not responsive  ::3.">
+    <meta property="og:image" content="img/myLogo.jpg">
 
-         a{
-             display: block;
-             /* margin-top: 20px; */
-             float: right;
-             background-color:cadetblue;
-             width: 50%;
-             text-align: center;
-             padding: 20px;
-             /* height: 100vh; */
-             border-radius: 5px;
-             text-decoration: none;
-             font-size: 30px;
-         }
-         
-         .weight-converter{
-             background-color: darkcyan;
-             color: rgb(196, 182, 182);
-         }
-         .item-lister{
-             background-color: darksalmon;
-             color: rgb(219, 198, 198);
-         }
-         .weight-converter:hover{
-             background-color: transparent;
-             color: rgb(197, 19, 117);
-             max-width: 50%;
-         }
-         .item-lister:hover{
-             background-color: transparent;
-             color:rgb(197, 19, 117) ;
-         }
-         h2{
-             margin: 300px auto;
-             text-align: center;
-         }
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mms-it.com/">
+    <meta property="twitter:title" content="Mkz's Projects">
+    <meta property="twitter:description" content="Plz check my projects guys. The last project, facebook clone layout is not responsive  ::3.">
+    <meta property="twitter:image" content="img/myLogo.jpg">
 
-         @media screen and (max-width: 600px){
-             #project{
-                 width: 100%;
-             }
-         }
-
-    </style>
+    <title>Mkz's projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vendor/font_awsome/css/all.css">
+    <link rel="stylesheet" href="vendor/animate_it/animate.min.css">
+    <link rel="icon" href="/img/myLogo.jpg" type="image/icon type">
  </head>
  <body>
      
-    <h1>My projects</h1>
-
-    <div class="project-links">
-        <a href="weight_converter/index.html" id="project" class="weight-converter">Weight Converter</a>
-        <a href="item_lister/index1.html" id="project" class="item-lister">Item Lister</a>
-    </div>
-
-    <div class="more">
-        <h2>Other projects are comming soon...</h2>
-    </div>
+    <main>
+        <section class="glass animate__animated animate__slideInDown">
+            <div class="profile">
+                <div class="user">
+                    <img src="download_image/img/myImg.jpg" width="60px" height="60px" alt="">
+                    <h3>Min Khant</h3>
+                    <p>Studying Web Development</p>
+                </div>
+                <div class="links">
+                    <div class="link">
+                        <img src="img/steam.png" alt="">
+                        <h4>Stream</h4>
+                    </div>
+                    <div class="link">
+                        <img src="img/twitch.png" alt="">
+                        <h4>Twitch</h4>
+                    </div>
+                    <div class="link">
+                        <img src="img/upcoming.png" alt="">
+                        <h4>Gamer</h4>
+                    </div>
+                    <div class="link">
+                        <img src="img/library.png" alt="">
+                        <h4>library</h4>
+                    </div>
+                </div>
+                <div class="descreption">
+                    <p>My hobby is playing games</p>
+                    <img src="img/controller.png" width="100px"  alt="">
+                </div>
+            </div>
+            <div class="projects">
+                <h1>My Projects</h1>
+                <div class="cards">
+                    <div class="card1">
+                        <img src="img/logo.svg " width="50px" style="border-radius: 20px;" alt="">
+                        <h4>Currency Exchange</h4>
+                        <a href="exchange_calculator/project/index.html" class="projectLink animate__animated animate__bounce animate__delay-3s" target="_blank">Preview</a>
+                    </div>
+                    <div class="card1">
+                        <img src="img/gettyimages-971623860-1024x1024.jpg" width="50px" style="border-radius: 20px;" alt="">
+                        <h4>Items Lister</h4>
+                        <a href="item_lister/index1.html" class="projectLink animate__animated animate__bounce animate__delay-3s" target="_blank">Preview</a>
+                    </div>
+                    <div class="card1">
+                        <img src="img/download.png" width="50px" style="border-radius: 20px;" alt="">
+                        <h4>Weight Converter</h4>
+                        <a href="weight_converter/index.html" class="projectLink animate__animated animate__bounce animate__delay-3s"  target="_blank">Preview</a>
+                    </div>
+                    <div class="card1">
+                        <img src="img/facebook-logo.jpg" width="50px" style="border-radius: 20px;" alt="">
+                        <h4>Facebook Clone</h4>
+                        <a href="facebook-layout/index.html" class="projectLink animate__animated animate__bounce animate__delay-3s"  target="_blank">Preview</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1 animate__animated animate__slideInRight"></div>
+    <div class="circle2 animate__animated animate__slideInLeft"></div>
 
  </body>
  </html>
